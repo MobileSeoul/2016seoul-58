@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comcompletelee.naver.blog.codiforseoul">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lglg"
+        android:label="I ALLOW U"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OuterTable">
+
+        </activity>
+
+        <activity android:name=".TopTable">
+
+        </activity>
+
+        <activity android:name=".BottomTable">
+
+        </activity>
+        <activity android:name=".ShoesTable">
+
+        </activity>
+    </application>
+
+</manifest>

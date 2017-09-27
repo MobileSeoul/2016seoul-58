@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:text="상의 출격명령표"
+                    android:textSize="30dp" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:stretchColumns="1,2">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#000000"></View>
+
+                    <TableRow android:background="#FF9900">
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="종류" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="아침, 저녁" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="대낮" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="옥스포드셔츠" />
+
+                        <TextView
+                            android:id="@+id/oxfordShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/oxfordShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="셔츠/블라우스\n(면 소재)" />
+
+                        <TextView
+                            android:id="@+id/dressShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/dressShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="셔츠/블라우스\n(스웨이드,모직)" />
+
+                        <TextView
+                            android:id="@+id/flannelShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/flannelShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="셔츠/블라우스\n(리넨 소재)" />
+
+                        <TextView
+                            android:id="@+id/lynenShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/lynenShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="면 반팔" />
+
+                        <TextView
+                            android:id="@+id/teeShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/teeShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="면 슬리브" />
+
+                        <TextView
+                            android:id="@+id/sleeve1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/sleeve2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="니트(얇은)" />
+
+                        <TextView
+                            android:id="@+id/lightKnit1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/lightKnit2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="니트(두꺼운)" />
+
+                        <TextView
+                            android:id="@+id/heavyKnit1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/heavyKnit2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="맨투맨,후드" />
+
+                        <TextView
+                            android:id="@+id/sweatShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/sweatShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="기모 맨투맨,후드" />
+
+                        <TextView
+                            android:id="@+id/nappingSweatShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/nappingSweatShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="네오프렌 맨투맨" />
+
+                        <TextView
+                            android:id="@+id/neopreneSweatShirt1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/neopreneSweatShirt2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="가디건(얇은)" />
+
+                        <TextView
+                            android:id="@+id/lightCardigan1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/lightCardigan2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="가디건(두꺼운)" />
+
+                        <TextView
+                            android:id="@+id/heavyCardigan1"
+                            android:gravity="center"
+                            android:lines="2" />
+
+                        <TextView
+                            android:id="@+id/heavyCardigan2"
+                            android:gravity="center"
+                            android:lines="2" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="터틀넥" />
+
+                        <TextView
+                            android:id="@+id/turtleNeck1"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/turtleNeck2"
+                            android:layout_gravity="center" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000000"></View>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="여친/남친" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="퇴각"
+                            android:textColor="#ff0000" />
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:text="퇴각"
+                            android:textColor="#ff0000" />
+                    </TableRow>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#000000"></View>
+
+
+                </TableLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:text="※ 출격명령표는 매일 아침 업데이트됩니다!" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+</LinearLayout>

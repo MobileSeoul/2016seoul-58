@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신발 출격명령표"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TableLayout
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:stretchColumns="1,2"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            >
+        </View>
+        <TableRow android:background="#FF9900">
+
+            <TextView
+                android:text="종류"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:text="아침, 저녁"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:text="대낮"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            >
+        </View>
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:text="로퍼"
+                android:lines="2"
+                />
+            <TextView
+                android:id="@+id/loafer1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/loafer2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+        <TableRow>
+
+            <TextView
+                android:lines="2"
+                android:text="구두\n(더비, 클리퍼 등)"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/shoes1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/shoes2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:lines="2"
+                android:text="샌들"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/sandal1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/sandal2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:text="부츠"
+                android:gravity="center"
+                android:lines="2"/>
+            <TextView
+                android:id="@+id/boots1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/boots2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:text="워커"
+                android:gravity="center"
+                android:lines="2"/>
+            <TextView
+                android:id="@+id/walker1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/walker2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:text="스니커즈(면)"
+                android:gravity="center"
+                android:lines="2"/>
+            <TextView
+                android:id="@+id/sneakers1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/sneakers2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:text="스니커즈\n(가죽/스웨이드)"
+                android:gravity="center"
+                android:lines="2"/>
+            <TextView
+                android:id="@+id/leatherOrSuede1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/leatherOrSuede2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:text="슬립온(면)"
+                android:gravity="center"
+                android:lines="2"/>
+            <TextView
+                android:id="@+id/slipon1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/slipon2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:text="슬립온(가죽)"
+                android:gravity="center"
+                android:lines="2"/>
+            <TextView
+                android:id="@+id/leatjerSlipon1"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/leatjerSlipon2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            >
+        </View>
+
+        <TableRow>
+
+            <TextView
+                android:text="여친/남친"
+                android:gravity="center"
+                android:lines="2"/>
+            <TextView
+                android:text="퇴각"
+                android:layout_gravity="center"
+                android:textColor="#ff0000"
+                />
+            <TextView
+                android:text="퇴각"
+                android:textColor="#ff0000"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            >
+        </View>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="※ 출격명령표는 매일 아침 업데이트됩니다!"
+        android:layout_gravity="right"/>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</LinearLayout>
